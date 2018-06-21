@@ -18,7 +18,7 @@
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init Plortinus/vue-multiple-pages new-project
+$ vue init ducaiwei/vue-multi-pages-template new-project
 $ cd new-project
 $ npm install
 ```
