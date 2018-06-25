@@ -1,6 +1,6 @@
 # vue-multi-pages-template
 
-**A modern Vue.js multiple pages cli which uses Vue 2, Webpack4**
+**A modern Vue.js   pages cli which uses Vue 2, Webpack4**
 
 ## Features
 
