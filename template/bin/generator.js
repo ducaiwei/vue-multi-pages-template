@@ -1,7 +1,7 @@
 let chalk = require('chalk')
-// let path = require('path')
+let path = require('path')
 let fs = require('fs')
-// let Metalsmith = require('metalsmith')
+let Metalsmith = require('metalsmith')
 let inquirer = require('inquirer')
 // let async = require('async')
 // let consolidate = require('consolidate')
@@ -21,7 +21,19 @@ let exists = function (appPath) {
   })
 }
 
+let renderTemplate = function () {
+}
+
+let addProject = function () {
+  return new Promise((resolve, reject) => {
+    let tplPath = path.join(__dirname, 'app-tpl')
+    Metalsmith(tplPath).source('.')
+                       .use(renderTemplate())
+  })
+}
+
 let run = function () {
+  addProject()
 }
 
 let generator = function (appPath, appProxy, appName) {
