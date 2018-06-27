@@ -18,7 +18,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       }
     },
     open: true,
-    openPage: 'G1Screeb/index.html'
+    openPage: 'G1Screen.html'
   }
 })
 
